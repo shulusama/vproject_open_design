@@ -20,13 +20,17 @@ body{
 	margin-top: -90px;
 }
 
-#left{
+#info{
 	background-color: white;
-	margin-top: -2px;
-	width: 43%;
+	width: 100%;
+	text-align:center;
+}
+
+#left{
+	text-align: left;
+	display: inline-block;
+	margin: -2px auto 0;
 	height: 600px;
-	float: left;
-	padding-left: 21%;
 	padding-top: 50px;
 	padding-right: 1%;
 	font-size: 14px;
@@ -46,14 +50,13 @@ body{
 /* 授權方式：「公眾領域貢獻宣告」（CC0）: */
 }
 #right{
-	width: 32%;
+	text-align: left;
+	display: inline-block;
 	height: 620px;
 	padding-top: 30px;
-	padding-left: 3%;
-	background-color: white;
-	margin-top: -2px;
-	float: right;
-	
+	padding-left: 10%;
+	margin: -2px auto 0;
+	vertical-align:bottom;
 	font-size: 14px;
 	color: #4A4A4A;
 	line-height: 21px;
@@ -71,7 +74,7 @@ body{
 	height: 28px;
 	text-align: center;
 	font-family:Gauge;
-	font-size: 14px; 
+	font-size: 14px;
 	color:white;
 	padding-top: 12px;
 	border-radius: 8px;
@@ -97,7 +100,7 @@ h3{
 	font-family:Gauge;
 	text-decoration: none;
 	text-align: center;
-	font-size: 13px; 
+	font-size: 13px;
 	color:white;
 }
 a{
